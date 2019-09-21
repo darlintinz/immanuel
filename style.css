@@ -1,0 +1,58 @@
+*{
+   margin: 0px;
+   padding: 0px;
+  
+}
+
+body{
+         font: 15px arial, helvetica,sans-sherif;
+                margin: 0;
+                padding:0;
+                background-color: gold;
+
+}
+
+.container{
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+}
+
+header{
+        background-color:#d1e618;
+        color: #ffffff;
+        padding-top: 30px;
+        min-height: 70px;
+        border-bottom: #e8491d 3px solid;
+
+}
+header li{
+        float: left;
+        display: inline;
+        padding: 0 20px 0 20px
+} 
+
+
+#brand{
+    float: left;
+}
+
+header #brand h1{
+    margin: 0;
+}
+header .nav{
+    float: right;
+    margin:10px;
+}
+#showcase {
+       min-height: 600px;
+       background: url("water.jpg") no-repeat 0 -400px;
+}
+
+
+#showcase h1{
+      margin-top: 100px;
+      font-size: 55px;
+      margin-bottom: 10px;
+    
+}
